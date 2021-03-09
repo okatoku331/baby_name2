@@ -60,4 +60,9 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    // dependencies内に下記の一行を追加
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
 }
+// ファイルの一番下に下記の一行を追加
+apply plugin: 'com.google.gms.google-services'
+
